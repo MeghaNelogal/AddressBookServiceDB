@@ -34,3 +34,9 @@ Update Addressbook Set Address='Majestic',City='Mysore' where FirstName='Teju';
 ----UC5----
 Delete from Addressbook where FirstName='Teju';
 
+----UC5----
+Delete from Addressbook where FirstName='riya';
+
+-----UC6-----
+Select * from Addressbook where City='Hubli' Order By FirstName;
+Select * from AddressBook where State='Karnataka' Order By FirstName;
