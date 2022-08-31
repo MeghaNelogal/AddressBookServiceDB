@@ -30,3 +30,7 @@ select * from Addressbook
 ----UC4----
 Update Addressbook Set City='Raichur' where FirstName='Megha';
 Update Addressbook Set Address='Majestic',City='Mysore' where FirstName='Teju';
+
+----UC5----
+Delete from Addressbook where FirstName='Teju';
+
