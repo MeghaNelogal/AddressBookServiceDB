@@ -44,3 +44,6 @@ Select * from AddressBook where State='Karnataka' Order By FirstName;
 --UC7--
 select count(*) from AddressBook where city='Belgaum';
 select count(*) from AddressBook where State='Karnataka';
+
+--UC8--
+select FirstName from Addressbook Order By City ASC;
