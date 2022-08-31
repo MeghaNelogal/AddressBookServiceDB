@@ -40,3 +40,7 @@ Delete from Addressbook where FirstName='riya';
 -----UC6-----
 Select * from Addressbook where City='Hubli' Order By FirstName;
 Select * from AddressBook where State='Karnataka' Order By FirstName;
+
+--UC7--
+select count(*) from AddressBook where city='Belgaum';
+select count(*) from AddressBook where State='Karnataka';
