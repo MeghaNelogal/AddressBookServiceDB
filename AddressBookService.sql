@@ -26,3 +26,7 @@ Insert into Addressbook Values
 ('Teju','Chetan','JP nagar','Haveri','Karnataka',665544,'9003422567','tejuchetan@gmail.com');
 
 select * from Addressbook
+
+----UC4----
+Update Addressbook Set City='Raichur' where FirstName='Megha';
+Update Addressbook Set Address='Majestic',City='Mysore' where FirstName='Teju';
