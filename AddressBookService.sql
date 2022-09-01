@@ -54,9 +54,13 @@ select * from AddressBook order by city ASC;
  select * from Addressbook
 update AddressBook SET Type ='Family' Where FirstName = 'Megha';
 update AddressBook SET Type = 'Profession' Where FirstName='Savita';
-update AddressBook SET Type = 'friends' Where FirstName='Shalini';
+update AddressBook SET Type = 'Friends' Where FirstName='Shalini';
 update AddressBook SET Type = 'Family' Where FirstName='Prabhu';
 update Addressbook SET Type = 'family' Where FirstName='Teju';
 
 ---UC10---
 Select COUNT(*),Type from Addressbook Group by Type;
+
+---UC11----
+Insert into Addressbook Values('Ashwini','Mahadev','KR Puram','Banglore','Karnataka',490022,'9887790088','ashwini@gmail.com','Friend')
+Insert into Addressbook Values('Kiran','Nandini','VV Puram','Hasan','Karnataka',490022,'9887667788','kiran@gmail.com','Family')
