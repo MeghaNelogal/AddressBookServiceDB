@@ -49,3 +49,11 @@ select count(*) from AddressBook where State='Karnataka';
 select FirstName from Addressbook Order By City ASC;
 select * from AddressBook order by city ASC;
 
+--UC9--
+ alter table Addressbook ADD Type varchar (10);
+ select * from Addressbook
+update AddressBook SET Type ='Family' Where FirstName = 'Megha';
+update AddressBook SET Type = 'Profession' Where FirstName='Savita';
+update AddressBook SET Type = 'friends' Where FirstName='Shalini';
+update AddressBook SET Type = 'Family' Where FirstName='Prabhu';
+update Addressbook SET Type = 'family' Where FirstName='Teju';
