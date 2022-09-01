@@ -57,3 +57,6 @@ update AddressBook SET Type = 'Profession' Where FirstName='Savita';
 update AddressBook SET Type = 'friends' Where FirstName='Shalini';
 update AddressBook SET Type = 'Family' Where FirstName='Prabhu';
 update Addressbook SET Type = 'family' Where FirstName='Teju';
+
+---UC10---
+Select COUNT(*),Type from Addressbook Group by Type;
