@@ -48,3 +48,4 @@ select count(*) from AddressBook where State='Karnataka';
 --UC8--
 select FirstName from Addressbook Order By City ASC;
 select * from AddressBook order by city ASC;
+
